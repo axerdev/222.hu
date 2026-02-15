@@ -1,0 +1,80 @@
+body {
+    background-color: #000;
+    color: white;
+    font-family: Fustat, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.felso-cim {
+    color: #FFA500;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+.elvalaszto-vonal {
+    width: 100%;
+    height: 4px; 
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+
+.kartya-doboz {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+
+.kartya {
+    width: 320px;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.2s;
+}
+
+.kartya:hover {
+    transform: scale(1.02);
+}
+
+
+.kartya img {
+    width: 100%;
+    height: 180px; 
+    object-fit: cover; 
+    border-radius: 20px;
+    display: block;
+}
+
+.kategoria {
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.galeria-felirat a {
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+}
+
+.galeria-felirat:hover {
+        transition: transform 0.2s;
+        transform: scale(1.3);
+}
+
+.galeria-felirat:not(:hover) {
+        transition: transform 0.2s;
+        transform: scale(1.0);
+}
